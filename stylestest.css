@@ -4,9 +4,7 @@
     padding: 0;
 }
 
-.page {
-    background: #131414;
-}
+
 
 li, a, button {
     font-family: Arial, Helvetica, sans-serif;
@@ -51,8 +49,6 @@ h1 {
 }
 
 button {
-    list-style: none;
-    display: inline-block;
     padding: 10px 20px;
     background-color: blue;
     border: none;
