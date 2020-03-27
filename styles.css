@@ -3,12 +3,15 @@
 }
 
 header {
-
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
 }
 
 
 nav {
-    float: left;
+    text-align: center;
+    display: inline-block;
 }
 
 nav ul {
@@ -26,7 +29,13 @@ nav li {
 nav a {
     display: block;
     padding: 20px;
-    background-color: #dddddd;
+    color: silver;
+    font-size: 20px;
+    background-color: #000000;
+}
+
+nav a:hover {
+    background-color: #111;
 }
 .box {
     box-sizing: border-box;
