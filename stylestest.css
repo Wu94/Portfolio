@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+.page {
+    background: #131414;
+}
 
 
 li, a, button {
