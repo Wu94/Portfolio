@@ -2,47 +2,50 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
-
-  .page {
-    background: #131414;
 }
 
+.page {
+  background: #131414;
+}
 
-  .navbar {
-    font-size: 20px;
-    background: black;
+.link_icon_resize {
+  margin-right: 5px;
+  max-width: 25px;
+  max-height: 25px;
+}
 
-  }
+.navbar {
+  font-size: 20px;
+  background: black;
+}
 
-  #main-nav {
-    list-style-type: none;
-    display: none;
-    flex-direction: column;
-  }
+#main-nav {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+}
 
-  #main-nav li {
-    text-align: center;
-    margin: 15px auto;
-  }
+#main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
 
-  .nav-links,
-  #logo {
+.nav-links,#logo {
     text-decoration: none;
     color: silver;
-  }
+}
 
-  #logo:hover,
-  .nav-links:hover {
+#logo:hover,.nav-links:hover {
     color: silver;
-  }
+}
 
   #logo {
     display: inline-block;
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
   }
 
   #navbar-toggle {
@@ -63,6 +66,12 @@
 }
 
   @media screen and (min-width: 768px) {
+
+    .link_icon_resize {
+      margin-right: 30px;
+      max-width: 50px;
+      max-height: 50px;
+    }
 
     .navbar {
       display: flex;
@@ -89,9 +98,12 @@
     }
 
     #logo {
-      margin-top: 0;
+      margin-top: 0px;
+      margin-left: 40px;
+      margin-right: 400px;
       font-family: 'Permanent Marker', cursive;
       font-size: 50px;
+      
     }
 
     #navbar-toggle {
