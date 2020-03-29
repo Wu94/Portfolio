@@ -67,18 +67,22 @@ button:hover {
 /* Slideshow container */
 .slideshow-container {
     position: relative;
-    background: #f1f1f1f1;
+    background: #181A1B;
   }
   
-  /* Slides */
-  .mySlides {
+/* Slides */
+#firstSlide {
+    display: block;
+}
+
+.mySlides {
     display: none;
     padding: 80px;
     text-align: center;
-  }
+}
   
-  /* Next & previous buttons */
-  .prev, .next {
+/* Next & previous buttons */
+.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -109,7 +113,7 @@ button:hover {
   .dot-container {
       text-align: center;
       padding: 20px;
-      background: #ddd;
+      background: #131414;
   }
   
   /* The dots/bullets/indicators */
@@ -130,7 +134,11 @@ button:hover {
   }
   
   /* Add an italic font style to all quotes */
-  q {font-style: italic;}
+  q {
+      font-style: italic;
+      color: silver;
+    
+    }
   
   /* Add a blue color to the author */
   .author {color: cornflowerblue;}
