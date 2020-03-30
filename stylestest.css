@@ -8,6 +8,11 @@
   background: #131414;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
 .link_icon_resize {
   margin-right: 5px;
   max-width: 25px;
@@ -15,8 +20,11 @@
 }
 
 .navbar {
-  font-size: 20px;
-  background: black;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    font-size: 20px;
+    background: black;
 }
 
 #main-nav {
@@ -32,34 +40,35 @@
 
 .nav-links,#logo {
     text-decoration: none;
-    color: silver;
+    color: white;
+    font-weight: bold;
 }
 
 #logo:hover,.nav-links:hover {
     color: silver;
 }
 
-  #logo {
+#logo {
     display: inline-block;
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 50px;
-  }
+}
 
-  #navbar-toggle {
-    position: absolute;
+#navbar-toggle {
+    position: fixed;
     top: 15px;
     right: 20px;
     cursor: pointer;
-    color: silver;
+    color: white;
     font-size: 24px;
-  }
+}
 
-  #navbar-toggle:hover {
+#navbar-toggle:hover {
     color: silver;
-  }
+}
 
   .active {
     display: block;
@@ -91,64 +100,58 @@
     width: auto;
     margin-top: -30px;
     padding: 16px;
-    color: #888;
+    color: white;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
+}
   
-  /* Position the "next button" to the right */
-  .next {
+/* Position the "next button" to the right */
+.next {
     position: absolute;
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+}
   
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: black;
     color: white;
-  }
+}
   
-  /* The dot/bullet/indicator container */
-  .dot-container {
+/* The dot/bullet/indicator container */
+.dot-container {
       text-align: center;
       padding: 20px;
       background: #131414;
-  }
+}
   
-  /* The dots/bullets/indicators */
-  .dot {
+/* The dots/bullets/indicators */
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: white;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
+}
   
-  /* Add a background color to the active dot/circle */
-  .active, .dot:hover {
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
     background-color: #717171;
-  }
+}
   
-  /* Add an italic font style to all quotes */
-  q {
-      font-style: italic;
-      color: silver;
-    
-    }
   
-  /* Add a blue color to the author */
-  .author {color: cornflowerblue;}
+/* Add a blue color to the author */
+.slidetitle {color: cornflowerblue;}
 
 
 
 
-  @media screen and (min-width: 1510px) {
+@media screen and (min-width: 1510px) {
 
     .link_icon_resize {
       margin-right: 30px;
@@ -186,7 +189,6 @@
       margin-right: 300px;
       font-family: 'Permanent Marker', cursive;
       font-size: 50px;
-      
     }
 
     #navbar-toggle {
@@ -194,19 +196,9 @@
     }
 
   }  
-
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: silver;
-  }
   
   h2 {
       text-align: center;
-  }
-  
-  * {
-    box-sizing: border-box;
   }
   
   /* Style inputs */
