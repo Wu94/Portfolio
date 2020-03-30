@@ -145,16 +145,13 @@ body {
 }
   
   
-/* Add a blue color to the author */
 .slidetitle {color: cornflowerblue;}
 
 
-
-
-@media screen and (min-width: 1510px) {
+@media screen and (min-width: 1360px) {
 
     .link_icon_resize {
-      margin-right: 30px;
+      margin-right: 10px;
       max-width: 50px;
       max-height: 50px;
     }
@@ -165,12 +162,12 @@ body {
       padding-bottom: 0;
       height: 120px;
       align-items: center;
-      font-size: 30px;
+      font-size: 18px;
     }
 
     #main-nav {
       display: flex !important;
-      margin-right: 30px;
+      margin-right: 20px;
       flex-direction: row;
       justify-content: flex-end;
     }
@@ -180,13 +177,13 @@ body {
     }
 
     .nav-links {
-      margin-left: 40px;
+      margin-left: 20px;
     }
 
     #logo {
       margin-top: 0px;
       margin-left: 40px;
-      margin-right: 300px;
+      margin-right: 100px;
       font-family: 'Permanent Marker', cursive;
       font-size: 50px;
     }
